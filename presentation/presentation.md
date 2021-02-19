@@ -1,7 +1,7 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Structural approach to the deep learning method
+title: Лабораторная работа номер 2. 
 author: |
 	Иван Александрович Подмогильный\inst{1}
 institute: |

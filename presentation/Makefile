@@ -7,7 +7,7 @@ PDF_OPTIONS =
 PDF_FORMAT_OPTIONS = -t beamer --slide-level=2
 
 # FILTERS += -F pandoc-citeproc
-FILTERS += -F pandoc-crossref
+# FILTERS += -F pandoc-crossref
 PDF_ENGINE += --pdf-engine=lualatex
 PDF_OPTIONS += --number-sections
 
@@ -27,3 +27,4 @@ clean:
 	-rm $(FILES) *~
 
 cleanall: clean
+
